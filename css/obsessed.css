@@ -1,0 +1,141 @@
+body
+{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0;
+    align-content: center;
+    margin-bottom: 4em;
+}
+
+.homeherowelcome
+{
+    color: darkcyan;
+    text-align: center;
+    font-size: 150%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.wrapper
+{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.colorblock
+{
+    background-color: #67B6B6;
+    color: aliceblue;
+}
+
+.padded
+{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.bordered
+{
+    border: 4px solid #827EC7;
+        /*linear-gradient(to right, #008383, #008383, #827EC7, #5A53C5);*/
+}
+
+
+.paddedcolorblock
+{
+    background-color: #67B6B6;
+    color: aliceblue;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.headertext
+{
+    font-size: 400%
+}
+
+.mainlayout
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+.twocolcontainer
+{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    column-count: 2;
+}
+
+.purpleblock
+{
+    background-image: linear-gradient(to right, #827EC7, #5A53C5, #5A53C5);
+    padding: 1em;
+    color: aliceblue;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+button
+{
+    background-color: #5A53C5;
+    padding: 1em;
+    color: aliceblue;
+}
+
+.contentcontainer
+{
+    height: 350px;
+    width: 250px;
+}
+
+.purpleblockheader
+{
+    background-image: linear-gradient(to right, #827EC7, #5A53C5, #5A53C5);
+    padding: .5em;
+    color: aliceblue;
+}
+
+.one
+{
+    grid-column: 1 / 2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.two
+{
+    grid-column: 2 / 3;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-top: 1em;
+}
+
+footer
+{
+    font-style: italic;
+    color: #FFFFFF;
+    padding: .5em;
+    font-size: small;
+    background-image: linear-gradient(to right, #008383, #008383, #827EC7, #5A53C5);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+
+

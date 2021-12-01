@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>cross-stitchOBSESSED</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/obsessed.css">
+      <link rel="stylesheet" href="css/headnav.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <header>cross-stitchOBSESSED</header>
+            <nav>
+         <a href="index.html">Home</a>
+         <div class="dropdown">
+            <button class="dropbtn">Dashboard <span class="smallarrow">&#9660;</span>	
+            </button>
+            <div class="dropdown-content">
+               <a href="dashboard.html">My Dashboard</a>
+               <a href="dashboard.html">Floss Inventory</a>
+            </div>
+         </div>
+         <div class="dropdown">
+            <button class="dropbtn">Project Planning <span class="smallarrow">&#9660;</span></button>
+            <div class="dropdown-content">
+               <a href="projectplanning.html">Walkthrough</a>
+               <a href="projectplanning.html">Tools</a>
+            </div>
+         </div>
+         <a href="materials.html">Materials</a>
+         <a href="howto.html">How-To</a>
+      </nav>
+      <div class="wrapper">
+         <div class="twocolcontainer">
+            <div class="one">
+               <h1 class="headertext">Contact Us</h1>
+            </div>
+            <div class="two"><img src="media/crossStitch.jpg"></div>
+         </div>
+         <div class="purpleblock">
+            <h1>Questions</h1>
+         </div>
+         <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+            <label for="qname">* Name:</label>
+            <input type="text" id="qname" name="qname" required>
+            <label for="qemail">* Email:</label>
+            <input type="email" id="qemail" name="qemail" required>
+            <label for="qradio">* What type of question is this?</label>
+            <div>
+               <label><input type="radio" id="question" name="qradio" required/>Question</label>         
+               <label><input type="radio" id="techissue" name="qradio" required/>Technical Issue</label>
+               <label><input type="radio" id="other" name="qradio" required/>Other</label>
+            </div>
+            <label for="techissue">If this is for a technical issue, please put the steps to replicate your issue:</label>
+            <textarea name="techissue" id="techissue" rows="10" cols="30"></textarea>
+            <label for="qcomments">* Comments:</label>
+            <textarea name="qcomments" id="qcomments" rows="10" cols="30" required></textarea>
+            <input type="submit">
+         </form>
+         <p>Required fields are marked with an asterisk *.</p>
+         <div class="paddedcolorblock">
+            <h1>Feature Requests</h1>
+         </div>
+         <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+            <label for="featname">* Name:</label>
+            <input type="text" id="featname" name="featname" required>
+            <label for="featemail">* Email:</label>
+            <input type="email" id="featemail" name="featemail" required>
+            <label for="featurl">* URL of the page to update:</label>
+            <input type="text" id="featurl" name="featurl" required>                 
+            <label for="featdetails">* Please provide as much detail as possible of the new feature you'd like to see</label>
+            <textarea name="featdetails" id="featdetails" rows="10" cols="30" required></textarea>
+            <label for="featwhy">* How would this feature help other cross stitchers?</label>
+            <textarea name="featwhy" id="featwhy" rows="10" cols="30" required></textarea>
+            <input type="submit">
+         </form>
+         <p>Required fields are marked with an asterisk *.</p>
+      </div>
+   </body>
+   <footer>Questions or content requests? Please <a href="contactus.html">contact us</a>
+      <br>
+      Copyright &copy; 2021 cross-stitchOBSESSED
+   </footer>
+</html>

@@ -10,14 +10,25 @@
    </head>
    <body>
       <header>cross-stitchOBSESSED</header>
-      <nav>
-         <ul>
-            <a href="index.html">Home</a>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="projectplanning.html">Project Planning</a>
-            <a href="materials.html">Materials</a>
-            <a href="howto.html">How-To</a>
-         </ul>
+            <nav>
+         <a href="index.html">Home</a>
+         <div class="dropdown">
+            <button class="dropbtn">Dashboard <span class="smallarrow">&#9660;</span>	
+            </button>
+            <div class="dropdown-content">
+               <a href="dashboard.html">My Dashboard</a>
+               <a href="dashboard.html">Floss Inventory</a>
+            </div>
+         </div>
+         <div class="dropdown">
+            <button class="dropbtn">Project Planning <span class="smallarrow">&#9660;</span></button>
+            <div class="dropdown-content">
+               <a href="projectplanning.html">Walkthrough</a>
+               <a href="projectplanning.html">Tools</a>
+            </div>
+         </div>
+         <a href="materials.html">Materials</a>
+         <a href="howto.html">How-To</a>
       </nav>
       <div class="wrapper">
          <div class="twocolcontainer">
@@ -224,5 +235,8 @@
          </table>
       </div>
    </body>
-   <footer>Questions or content requests email alexandra@hollingsworth.com</footer>
+      <footer>Questions or content requests? Please <a href="contactus.html">contact us</a>
+      <br>
+      Copyright &copy; 2021 cross-stitchOBSESSED
+   </footer>
 </html>

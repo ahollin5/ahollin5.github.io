@@ -6,13 +6,43 @@ body
     margin: 0;
     align-content: center;
     margin-bottom: 4em;
+    
+}
+
+label
+{
+    font-size: 130%;
+}
+
+input[type="submit"]
+{
+    background-color: #5A53C5;
+    padding: 1em;
+    color: aliceblue;
+    grid-column: 2 / 2;
+}
+
+
+    form
+    {
+        width: 60%;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows: auto;
+        grid-template-columns: 9em 1fr;
+        margin: auto;
+    }
+    
+
+p
+{
+    font-size: 130%;
 }
 
 .homeherowelcome
 {
     color: darkcyan;
     text-align: center;
-    font-size: 150%;
     margin-left: 1em;
     margin-right: 1em;
 }

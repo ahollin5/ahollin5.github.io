@@ -1,7 +1,6 @@
 table
 {
     border-collapse: collapse;
-    font-size: 110%;
     text-align: left;
     /*margin: 3em;*/
     margin-top: 3em;
@@ -42,13 +41,6 @@ table tbody td
     color: aliceblue;
     font-size: 150%;
     text-align: center;
-}
-
-
-
-#headertext
-{
-    font-size: 400%
 }
 
 table tbody td table tbody th, table tbody td table tbody td

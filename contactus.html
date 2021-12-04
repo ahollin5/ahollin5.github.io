@@ -8,7 +8,25 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
-      <header>cross-stitchOBSESSED</header>
+            <header>cross-stitchOBSESSED
+       <div class="menucontainer">
+          <div class="menu">
+           <div>
+            <div class="menudiv"></div>
+          <div class="menudiv"></div>
+          <div class="menudiv"></div>
+           </div>
+           <div class="menu-dropdown-content">
+               <a href="index.html">Home</a>
+               <a href="dashboard.html">Dashboard</a>
+               <a href="projectplanning.html">Project Planning</a>
+               <a href="materials.html">Materials</a>
+               <a href="howto.html">How-To</a>
+               <a href="contactus.html">Contact Us</a>
+            </div>
+           </div>
+          </div>
+       </header>
             <nav>
          <a href="index.html">Home</a>
          <div class="dropdown">
@@ -35,7 +53,7 @@
             <div class="one">
                <h1 class="headertext">Contact Us</h1>
             </div>
-            <div class="two"><img src="media/crossStitch.jpg"></div>
+            <div class="two"><img src="media/crossStitch.jpg" alt="cross stitch tiles scissors hoop and needle on grey fabric"></div>
          </div>
          <div class="purpleblock">
             <h1>Questions</h1>
@@ -45,14 +63,14 @@
             <input type="text" id="qname" name="qname" required>
             <label for="qemail">* Email:</label>
             <input type="email" id="qemail" name="qemail" required>
-            <label for="qradio">* What type of question is this?</label>
+            <label>* What type of question is this?</label>
             <div>
                <label><input type="radio" id="question" name="qradio" required/>Question</label>         
                <label><input type="radio" id="techissue" name="qradio" required/>Technical Issue</label>
                <label><input type="radio" id="other" name="qradio" required/>Other</label>
             </div>
-            <label for="techissue">If this is for a technical issue, please put the steps to replicate your issue:</label>
-            <textarea name="techissue" id="techissue" rows="10" cols="30"></textarea>
+            <label for="techissuesteps">If this is for a technical issue, please put the steps to replicate your issue:</label>
+            <textarea name="techissuesteps" id="techissuesteps" rows="10" cols="30"></textarea>
             <label for="qcomments">* Comments:</label>
             <textarea name="qcomments" id="qcomments" rows="10" cols="30" required></textarea>
             <input type="submit">
